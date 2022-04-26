@@ -1,5 +1,5 @@
 fetch("https://apis.scrimba.com/jsonplaceholder/posts")
-    .then(res => res.json)
+    .then(res => res.json())
     .then(data => {
         console.log(data)
         const postArr = data.slice(0, 5)
